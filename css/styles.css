@@ -1,0 +1,167 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Big-Heading{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+}
+
+.white-section{
+  background-color: #ffffff;
+}
+
+/* Title Section */
+
+#title {
+  padding: 3% 15% 9%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Ubuntu"
+}
+
+/* Download Button */
+.Download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 10%
+}
+
+/* Features Section */
+
+.fetu {
+  margin: 10% 0 10% 0;
+}
+
+.fetu1 {
+  padding: 30px 30px;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.fas {
+  font-size: 40px;
+  align-content: center;
+  color: #ef8172;
+  padding: 10px 0;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+#features{
+  padding: 5% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+/* Testimonial Section */
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testiomonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Section */
+
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-section{
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA Section */
+
+#cta{
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+
+#footer{
+  padding: 7% 15%;
+}
+
+.footer-icon{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media (max-width: 990px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+
+}
